@@ -4,7 +4,7 @@ import SideBar from "./components/SideBar/SideBar";
 
 import AccountingPage from "./pages/AccountingPage";
 import CustomersPage from "./pages/CustomersPage";
-import { CustomFonts } from "./components/CustomFonts/CustomFonts";
+import { CustomFonts } from "./components/AppGlobal/AppGlobal";
 
 function App() {
   return (
@@ -28,14 +28,6 @@ function App() {
           </Box>
         </Box>
       </BrowserRouter>
-      <Button
-        sx={{
-          // or anywhere else
-          fontFamily: "Greycliff CF, sans-serif",
-        }}
-      >
-        ایران سنس
-      </Button>
     </MantineProvider>
   );
 }
